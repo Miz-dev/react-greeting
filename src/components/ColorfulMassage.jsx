@@ -1,6 +1,6 @@
 import React from "react";
 
-const ColorfulMassage = (props) => {
+export const ColorfulMassage = (props) => {
   const { color, children } = props;
   const contentStyle = {
     color,
@@ -9,5 +9,3 @@ const ColorfulMassage = (props) => {
 
   return <p style={contentStyle}>{children}</p>;
 };
-
-export default ColorfulMassage;

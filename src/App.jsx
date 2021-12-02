@@ -1,6 +1,6 @@
 /* eslint react-hooks/exhaustive-deps: off */
 import React, { useEffect, useState } from "react";
-import ColorfulMassage from "./components/ColorfulMassage";
+import { ColorfulMassage } from "./components/ColorfulMassage";
 
 const App = () => {
   console.log("最初！");
